@@ -1,0 +1,7 @@
+{
+  "name": "BuildVision AI",
+  "description": "Rohit Krause Prueba",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
