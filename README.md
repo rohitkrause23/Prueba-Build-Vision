@@ -1,6 +1,20 @@
-Este proyecto demuestra mi capacidad para:
-Manejar outputs estructurados y patrones agenticos con LLMs.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Escribir código Python de producción que no es un simple script, sino una herramienta funcional.
+# Run and deploy your AI Studio app
 
-Gestionar el ciclo de vida completo: desde el procesamiento de visión computacional hasta el despliegue en la nube.
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/b9a6f55b-4942-4b8a-83c5-dcb03eb08548
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
