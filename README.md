@@ -1,20 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Este sistema soluciona el problema del procesamiento manual de presupuestos y facturas en el sector construcción. Mediante lógica de procesamiento avanzada, el pipeline es capaz de:
+* **Extraer información crítica:** Identifica ítems, códigos de materiales y costos.
+* **Razonamiento de Dominio:** Realiza cálculos automáticos (ej. deduce metros cuadrados totales basándose en cantidades de cajas de materiales).
+* **Normalización de Datos:** Convierte entradas no estructuradas en esquemas JSON listos para integración empresarial.
 
-# Run and deploy your AI Studio app
+## 🛠️ Stack Tecnológico
+* **Backend:** Python 3.12+ (Lógica de procesamiento y normalización).
+* **Frontend:** React 19, TypeScript, Tailwind CSS.
+* **Base de Datos:** Supabase (PostgreSQL) para persistencia y gestión de registros.
+* **Infraestructura:** Despliegue continuo (CI/CD) mediante Vercel y conectividad serverless.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/b9a6f55b-4942-4b8a-83c5-dcb03eb08548
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Características Técnicas
+* **Pipeline de Extracción:** Implementación de algoritmos para la lectura de documentos técnicos con un enfoque en la precisión de datos financieros.
+* **Validación de Datos:** Uso de estructuras estrictas para garantizar que los costos y cantidades sean numéricamente correctos.
+* **Interfaz de Usuario:** Dashboard intuitivo diseñado para facilitar las labores diarias del personal operativo, permitiendo exportaciones rápidas.
